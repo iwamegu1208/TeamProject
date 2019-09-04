@@ -6,11 +6,20 @@
  * @version (2019.09.02)
  */
 public class Rect implements Shape{
-    public double getArea(){
-        
-        
-    }    
-    public void draw(){
-        System.out.println(" " + "크기의 사각형입니다.");
+    private int x,y;
+    public Rect(int x, int y)
+    {
+        this.x=x;
+        this.y=y;
+    }
+
+    public void draw()
+    {
+        System.out.println(this.x+","+this.y+"크기의 사각형입니다.");
+    }
+
+    public double getArea()
+    {
+        return this.x*this.y;
     }
 }
