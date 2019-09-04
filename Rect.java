@@ -5,11 +5,11 @@
  * @author (20183150013 최세원,2018315059 이와사키 메구미,) 
  * @version (2019.09.02)
  */
-public class Rec implements Shape{
+public class Rect implements Shape{
     public double getArea(){
         
     }    
-    public void draw{
+    public void draw(){
         System.out.println(" " + "크기의 사각형입니다.");
     }
 }

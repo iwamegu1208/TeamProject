@@ -9,7 +9,7 @@ public class Oval implements Shape{
     public double getArea(){
     }    
     
-    public void draw{
+    public void draw(){
         System.out.println(" " + "*" + "에 내접하는 타원입니다.");
     } 
 }
