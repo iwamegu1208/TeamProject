@@ -8,6 +8,7 @@
 public class Rect implements Shape{
     public double getArea(){
         
+        
     }    
     public void draw(){
         System.out.println(" " + "크기의 사각형입니다.");
