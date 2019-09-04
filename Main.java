@@ -1,21 +1,21 @@
 
 /**
- * Write a description of class main here.
- *
- * @author (20183150013 최세원,2018315059 이와사키 메구미,)
- * @version (2019.09.02)
+ * 클래스들의 Main 클래스입니다..
+ * 
+ * @author (작성자 이름) 
+ * @version (버전번호나 날짜)
  */
 public class Main
 {
-    public static void main(String[] args){
+    public static void Main(String[] args){
         Shape[] list = new Shape[3];
         list[0] = new Circle(10);
         list[1] = new Oval(20, 30);
         list[2] = new Rect(10, 40);
-        
+
         for(int i=0; i<list.length; i++)
             list[i].redraw();
         for(int i=0; i<list.length; i++)
             System.out.println("면적은 "+ list[i].getArea());
-        }
+    }
 }
