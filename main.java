@@ -2,8 +2,8 @@
 /**
  * Write a description of class main here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (20183150013 최세원,2018315059 이와사키 메구미,)
+ * @version (2019.09.02)
  */
 public class main
 {
