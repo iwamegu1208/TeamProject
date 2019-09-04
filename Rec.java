@@ -5,6 +5,11 @@
  * @author (작성자 이름) 
  * @version (버전번호나 날짜)
  */
-public class Rec implements Shape
-{
+public class Rec implements Shape{
+    public double getArea(){
+        
+    }    
+    public void draw{
+        System.out.println(" " + "크기의 사각형입니다.");
+    }
 }
